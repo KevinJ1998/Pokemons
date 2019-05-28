@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="diseño.css">
+    <script src = "datos.js"></script>
+</head>
+<body>
+    <form name= "formulario" method="get">
+        <input type="text" name="pokemon" id="pokemon" maxlength="15" placeholder="Pokemon que va a atacar" required>
+        <br>
+        <br>
+        <input type="text" name="pokemon1" id="pokemon1" maxlength="15" placeholder="Pokemon a atacar" required>
+        <br>
+        <br>
+        <input type="button" id="btn" name="btn" value="Guardar" onclick="crearPokemons()"><input type="button" id="btn1" value="Atacar" onclick="atacarPok()">
+        <br>
+        <br>
+        <label for="nomPok1">Pokemon 1: </label>
+        <input type="text" name="nomPokemon1" id="nomPok1">
+        <br>
+        <br>
+        <label for="vidaPok1">Vida: </label>
+        <input type="text" name="vidaPokemon1" id="vidaPok1">
+        <br>
+        <br>
+        <label for="nomPok2">Pokemon 2:</label>
+        <input type="text" name="nomPokemon2" id="nomPok2">
+        <br>
+        <br>
+        <label for="vidaPok2">Vida: </label>
+        <input type="text" name="vidaPokemon2" id="vidaPok2">
+    </form>
+    
+</body>
+</html>
